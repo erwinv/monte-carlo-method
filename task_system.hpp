@@ -4,7 +4,6 @@
 #include <type_traits>
 #include <utility>
 #include <dispatch/dispatch.h>
-#include "task_system.hpp"
 
 namespace tasksystem {
 
