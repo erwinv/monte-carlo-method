@@ -1,0 +1,24 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "pi.cpp",
+      "name": "pi.exe <total> <chunk>",
+      "args": [
+        "1000000000",
+        "1000000"
+      ]
+    },
+    {
+      "type": "default",
+      "project": "pi_singlethread.cpp",
+      "name": "pi_s.exe <total> <chunk>",
+      "args": [
+        "1000000000",
+        "1000000"
+      ]
+    }
+  ]
+}
