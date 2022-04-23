@@ -4,8 +4,8 @@
   "configurations": [
     {
       "type": "default",
-      "project": "pi.cpp",
-      "name": "pi.exe <total> <chunk>",
+      "project": "pi_singlethread.cpp",
+      "name": "pi_s.exe <total=1b> <chunk=1m>",
       "args": [
         "1000000000",
         "1000000"
@@ -13,8 +13,17 @@
     },
     {
       "type": "default",
-      "project": "pi_singlethread.cpp",
-      "name": "pi_s.exe <total> <chunk>",
+      "project": "pi.cpp",
+      "name": "pi.exe <total=1b> <chunk=1m>",
+      "args": [
+        "1000000000",
+        "1000000"
+      ]
+    },
+    {
+      "type": "default",
+      "project": "pi_microsoft_ppl.cpp",
+      "name": "pi_ms_ppl.exe <total=1b> <chunk=1m>",
       "args": [
         "1000000000",
         "1000000"
